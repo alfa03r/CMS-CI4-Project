@@ -7,6 +7,8 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 
+$routes->get('/coba', 'Coba::about');
+
 
 /**
  * --------------------------------------------------------------------
